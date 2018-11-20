@@ -38,7 +38,10 @@
     <ClCompile Include="..\Source\Laboratoare\Laborator3\Laborator3.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator3\Laborator3_Vis2D.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator3\Object2D.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\Laborator4\Ball.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator4\Laborator4.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\Laborator4\Object3D.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\Laborator4\Pocket.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator5\Laborator5.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator6\Laborator6.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator7\Laborator7.cpp" />
@@ -72,7 +75,10 @@
     <ClInclude Include="..\Source\Laboratoare\Laborator3\Laborator3_Vis2D.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator3\Object2D.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator3\Transform2D.h" />
+    <ClInclude Include="..\Source\Laboratoare\Laborator4\Ball.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator4\Laborator4.h" />
+    <ClInclude Include="..\Source\Laboratoare\Laborator4\Object3D.h" />
+    <ClInclude Include="..\Source\Laboratoare\Laborator4\Pocket.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator4\Transform3D.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator5\LabCamera.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator5\Laborator5.h" />
@@ -96,7 +102,7 @@
     <ProjectGuid>{FB43B467-42CC-458C-9556-597B025830F7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Framework_EGC</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -139,6 +139,13 @@
     <ClCompile Include="..\Source\Laboratoare\Laborator9\Laborator9.cpp">
       <Filter>Laboratoare\Laborator9</Filter>
     </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Laborator4\Object3D.cpp">
+      <Filter>Laboratoare\Laborator4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Laborator4\Pocket.cpp">
+      <Filter>Laboratoare\Laborator4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\Laborator4\Ball.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\Core\World.h">
@@ -240,6 +247,13 @@
     <ClInclude Include="..\Source\Laboratoare\Laborator9\Laborator9.h">
       <Filter>Laboratoare\Laborator9</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Laborator4\Object3D.h">
+      <Filter>Laboratoare\Laborator4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Laborator4\Pocket.h">
+      <Filter>Laboratoare\Laborator4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\Laborator4\Ball.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator6\Shaders\FragmentShader.glsl">
