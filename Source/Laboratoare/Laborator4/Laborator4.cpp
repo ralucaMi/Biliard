@@ -588,7 +588,6 @@ void Laborator4::solveCollision(Ball * ball, Collision &collision, float deltaTi
 			integrateBallVelocity (ball, deltaTime);
 			integrateBallVelocity (collision.ball, deltaTime);
 
-			// super gay sphere sphere collision
 			glm::vec3 n = glm::normalize (ball->getPosition () - collision.ball->getPosition ());
 			float v1 = glm::dot (ball->getVelocity(), n);
 			float v2 = glm::dot (collision.ball->getVelocity(), n);
