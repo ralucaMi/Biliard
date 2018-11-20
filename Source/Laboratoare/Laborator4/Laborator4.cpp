@@ -21,7 +21,7 @@ float thickness = 0.07f;
 float ballRadius = 0.035f;
 float stickRadius = 0.01f;
 float stickLength = 1.0f;
-float minVelocity = 0.012f;
+float minVelocity = 0.024f;
 
 Laborator4::Laborator4()
 {
@@ -227,7 +227,9 @@ void Laborator4::Update(float deltaTimeSeconds)
 		// ================
 		// handle game turn
 		// ================
-		if (maxVelocity < minVelocity * 3.0f){
+		if (maxVelocity < minVelocity){
+			for (int i = 0; i < balls.size (); ++i)
+				balls[i]->setVelocity (glm::vec3 (0));
 
 			stickCharge = 0.0f;
 			stickAngle = 0.0f;
